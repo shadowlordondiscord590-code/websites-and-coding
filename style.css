@@ -1,0 +1,88 @@
+.rickroll_click_mes{
+    background:linear-gradient(to bottom,chartreuse,skyblue,red);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw
+
+}
+
+.first_click_me:hover{
+    background-color: yellow;
+}
+
+.second_click_me:hover{
+    background-color: yellow;
+}
+
+.third_click_me:hover{
+    background-color: yellow;
+}
+
+.fourth_click_me:hover{
+    background-color: yellow;
+}
+
+.welcome{
+    font-family: "times new roman", serif;
+    color: #4dff00;
+    text-shadow: 3px 5px 6px rgb(86, 155, 16);
+    }
+
+body{
+    background-image: url(images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjA5LWFkai0wOV8xLmpwZw.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    font-family: "times new roman", serif;
+    color: rgb(77, 255, 0);
+}
+
+.yt_gif{
+    border: 5px solid;
+    border-color:chartreuse
+}
+
+.random_table{
+    margin-top: 20%;
+    margin-bottom: 40%;
+    border-color: chartreuse;
+}
+
+h1::selection   {
+    background-color: black;
+    color: red;
+}
+
+img::selection{
+    background-color: rgba(0, 255, 170, 0.269);
+    color: red;
+}
+
+.pages a{
+    color: rgb(0, 255, 238);
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+#navbar{
+    background-color: rgb(0, 255, 238);
+    border: 5px solid rgb(22, 173, 123);
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a{
+    color: rgb(34, 198, 12);
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: px 3px 8px rgb(3, 59, 7);
+}
+
